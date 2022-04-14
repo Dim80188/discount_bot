@@ -57,14 +57,12 @@ def get_data(url):
         title = card.find(class_='product-card__title').text
         price_new = card.find(class_='price-new').text
         # price_old = card.find(class_='price-old').text
-
         discont = card.find(class_='product-card__badge').span.text
         link = 'https://www.perekrestok.ru' + card.find(class_='product-card__link').get('href')
         all_products_page.append(
             {
                 "Title": title,
                 "Price_new": price_new,
-                # "Price_old": price_old,
                 "Discont": discont,
                 "Link": link
             }
@@ -116,7 +114,7 @@ def save_file(url, all_data):
 
 
 if __name__ == "__main__":
-    print(get_categories_list())
+    print(get_categories())
     # url = 'https://www.perekrestok.ru/cat/d/'
     # cat_list = get_categories()
     #
