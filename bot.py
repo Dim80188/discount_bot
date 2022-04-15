@@ -22,9 +22,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Предметы для уборки'))
 async def get_one_cat_prod(message: types.Message):
@@ -32,9 +31,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Зелёная Линия'))
 async def get_one_cat_prod(message: types.Message):
@@ -42,9 +40,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Маркет Перекрёсток'))
 async def get_one_cat_prod(message: types.Message):
@@ -52,9 +49,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Мarket Соllectio'))
 async def get_one_cat_prod(message: types.Message):
@@ -62,9 +58,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сарафаново'))
 async def get_one_cat_prod(message: types.Message):
@@ -72,9 +67,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Шеф Перекрёсток'))
 async def get_one_cat_prod(message: types.Message):
@@ -82,9 +76,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Новый Океан'))
 async def get_one_cat_prod(message: types.Message):
@@ -92,9 +85,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Home Story'))
 async def get_one_cat_prod(message: types.Message):
@@ -102,9 +94,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Bonte'))
 async def get_one_cat_prod(message: types.Message):
@@ -112,9 +103,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Верховье'))
 async def get_one_cat_prod(message: types.Message):
@@ -122,9 +112,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Съешь меня'))
 async def get_one_cat_prod(message: types.Message):
@@ -132,9 +121,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Frey'))
 async def get_one_cat_prod(message: types.Message):
@@ -142,9 +130,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Пр!ст'))
 async def get_one_cat_prod(message: types.Message):
@@ -152,9 +139,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Знай наших'))
 async def get_one_cat_prod(message: types.Message):
@@ -162,9 +148,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Ухтышки'))
 async def get_one_cat_prod(message: types.Message):
@@ -172,9 +157,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Молоко'))
 async def get_one_cat_prod(message: types.Message):
@@ -182,9 +166,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сыр'))
 async def get_one_cat_prod(message: types.Message):
@@ -192,9 +175,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Творог'))
 async def get_one_cat_prod(message: types.Message):
@@ -202,9 +184,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сырки'))
 async def get_one_cat_prod(message: types.Message):
@@ -212,9 +193,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Йогурты'))
 async def get_one_cat_prod(message: types.Message):
@@ -222,9 +202,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Творожки'))
 async def get_one_cat_prod(message: types.Message):
@@ -232,9 +211,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Десерты и снеки'))
 async def get_one_cat_prod(message: types.Message):
@@ -242,9 +220,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Яйца'))
 async def get_one_cat_prod(message: types.Message):
@@ -252,9 +229,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Масло'))
 async def get_one_cat_prod(message: types.Message):
@@ -262,9 +238,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Кисломолочные продукты'))
 async def get_one_cat_prod(message: types.Message):
@@ -272,9 +247,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сметана'))
 async def get_one_cat_prod(message: types.Message):
@@ -282,9 +256,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сливки'))
 async def get_one_cat_prod(message: types.Message):
@@ -292,9 +265,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Молочные консервы'))
 async def get_one_cat_prod(message: types.Message):
@@ -302,9 +274,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Молочные коктейли'))
 async def get_one_cat_prod(message: types.Message):
@@ -312,9 +283,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Премиум-выбор'))
 async def get_one_cat_prod(message: types.Message):
@@ -322,9 +292,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Овощи'))
 async def get_one_cat_prod(message: types.Message):
@@ -332,9 +301,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Фрукты'))
 async def get_one_cat_prod(message: types.Message):
@@ -342,9 +310,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Ягоды'))
 async def get_one_cat_prod(message: types.Message):
@@ -352,9 +319,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Зелень и салаты'))
 async def get_one_cat_prod(message: types.Message):
@@ -362,9 +328,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Грибы'))
 async def get_one_cat_prod(message: types.Message):
@@ -372,9 +337,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Соленья'))
 async def get_one_cat_prod(message: types.Message):
@@ -382,9 +346,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Макароны, паста'))
 async def get_one_cat_prod(message: types.Message):
@@ -392,9 +355,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Растительное масло'))
 async def get_one_cat_prod(message: types.Message):
@@ -402,9 +364,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Крупы и бобовые'))
 async def get_one_cat_prod(message: types.Message):
@@ -412,9 +373,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Специи и приправы'))
 async def get_one_cat_prod(message: types.Message):
@@ -422,9 +382,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Мука'))
 async def get_one_cat_prod(message: types.Message):
@@ -432,9 +391,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Компоненты для выпечки'))
 async def get_one_cat_prod(message: types.Message):
@@ -442,9 +400,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Соль'))
 async def get_one_cat_prod(message: types.Message):
@@ -452,9 +409,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Весовая кулинария'))
 async def get_one_cat_prod(message: types.Message):
@@ -462,9 +418,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Осталось доготовить'))
 async def get_one_cat_prod(message: types.Message):
@@ -472,9 +427,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Напитки'))
 async def get_one_cat_prod(message: types.Message):
@@ -482,9 +436,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='До и после еды'))
 async def get_one_cat_prod(message: types.Message):
@@ -492,9 +445,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Печенье, крекеры, вафли, пряники'))
 async def get_one_cat_prod(message: types.Message):
@@ -502,9 +454,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Чипсы, снеки, попкорн'))
 async def get_one_cat_prod(message: types.Message):
@@ -512,9 +463,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Молочный и белый шоколад'))
 async def get_one_cat_prod(message: types.Message):
@@ -522,9 +472,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Тёмный шоколад'))
 async def get_one_cat_prod(message: types.Message):
@@ -532,9 +481,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Шоколадные и ореховые батончики'))
 async def get_one_cat_prod(message: types.Message):
@@ -542,9 +490,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Злаковые и фруктовые батончики'))
 async def get_one_cat_prod(message: types.Message):
@@ -552,9 +499,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Шоколадные и ореховые пасты'))
 async def get_one_cat_prod(message: types.Message):
@@ -562,9 +508,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Конфеты'))
 async def get_one_cat_prod(message: types.Message):
@@ -572,9 +517,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Торты и пирожные'))
 async def get_one_cat_prod(message: types.Message):
@@ -582,9 +526,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Пироги, сдоба, кексы, рулеты'))
 async def get_one_cat_prod(message: types.Message):
@@ -592,9 +535,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Зефир, мармелад, пастила'))
 async def get_one_cat_prod(message: types.Message):
@@ -602,9 +544,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Диабетические сладости'))
 async def get_one_cat_prod(message: types.Message):
@@ -612,9 +553,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Леденцы и драже'))
 async def get_one_cat_prod(message: types.Message):
@@ -622,9 +562,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Восточные сладости, халва'))
 async def get_one_cat_prod(message: types.Message):
@@ -632,9 +571,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Жевательная резинка'))
 async def get_one_cat_prod(message: types.Message):
@@ -642,9 +580,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Вода'))
 async def get_one_cat_prod(message: types.Message):
@@ -652,9 +589,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Газированные напитки'))
 async def get_one_cat_prod(message: types.Message):
@@ -662,9 +598,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Энергетические напитки'))
 async def get_one_cat_prod(message: types.Message):
@@ -672,9 +607,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Соки, нектары'))
 async def get_one_cat_prod(message: types.Message):
@@ -682,9 +616,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Квас и квасные напитки'))
 async def get_one_cat_prod(message: types.Message):
@@ -692,9 +625,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Растительные напитки и молоко'))
 async def get_one_cat_prod(message: types.Message):
@@ -702,9 +634,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Холодный чай, комбуча'))
 async def get_one_cat_prod(message: types.Message):
@@ -712,9 +643,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Безалкогольное пиво, вино'))
 async def get_one_cat_prod(message: types.Message):
@@ -722,9 +652,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сокосодержащие напитки, смузи'))
 async def get_one_cat_prod(message: types.Message):
@@ -732,9 +661,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Морсы, узвары, кисели, компоты'))
 async def get_one_cat_prod(message: types.Message):
@@ -742,9 +670,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Диабетические напитки'))
 async def get_one_cat_prod(message: types.Message):
@@ -752,9 +679,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Хлебцы'))
 async def get_one_cat_prod(message: types.Message):
@@ -762,9 +688,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Хлебобулочные изделия'))
 async def get_one_cat_prod(message: types.Message):
@@ -772,9 +697,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Мясо птицы'))
 async def get_one_cat_prod(message: types.Message):
@@ -782,9 +706,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Колбасы, ветчина'))
 async def get_one_cat_prod(message: types.Message):
@@ -792,9 +715,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сосиски, сардельки, шпикачки'))
 async def get_one_cat_prod(message: types.Message):
@@ -802,9 +724,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Полуфабрикаты'))
 async def get_one_cat_prod(message: types.Message):
@@ -812,9 +733,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Говядина'))
 async def get_one_cat_prod(message: types.Message):
@@ -822,9 +742,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Деликатесы и копчёности'))
 async def get_one_cat_prod(message: types.Message):
@@ -832,9 +751,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Свинина'))
 async def get_one_cat_prod(message: types.Message):
@@ -842,9 +760,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Фарш'))
 async def get_one_cat_prod(message: types.Message):
@@ -852,9 +769,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Субпродукты'))
 async def get_one_cat_prod(message: types.Message):
@@ -862,9 +778,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Холодцы, паштеты, зельцы'))
 async def get_one_cat_prod(message: types.Message):
@@ -872,9 +787,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Солёная, маринованная рыба'))
 async def get_one_cat_prod(message: types.Message):
@@ -882,9 +796,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Охлаждённая рыба'))
 async def get_one_cat_prod(message: types.Message):
@@ -892,9 +805,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Икра'))
 async def get_one_cat_prod(message: types.Message):
@@ -902,9 +814,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Замороженная рыба'))
 async def get_one_cat_prod(message: types.Message):
@@ -912,9 +823,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Крабовое мясо и палочки'))
 async def get_one_cat_prod(message: types.Message):
@@ -922,9 +832,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Копчёная рыба'))
 async def get_one_cat_prod(message: types.Message):
@@ -932,9 +841,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Рыбные консервы и кулинария'))
 async def get_one_cat_prod(message: types.Message):
@@ -942,9 +850,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Морепродукты и креветки'))
 async def get_one_cat_prod(message: types.Message):
@@ -952,9 +859,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Вяленая, сушёная рыба и морепродукты'))
 async def get_one_cat_prod(message: types.Message):
@@ -962,9 +868,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Пресервы'))
 async def get_one_cat_prod(message: types.Message):
@@ -972,9 +877,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Пицца, вареники, пельмени, блины'))
 async def get_one_cat_prod(message: types.Message):
@@ -982,9 +886,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Морепродукты'))
 async def get_one_cat_prod(message: types.Message):
@@ -992,9 +895,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='https://www.perekrestok.ru/cat/d/59/ovosi-i-smesi'))
 async def get_one_cat_prod(message: types.Message):
@@ -1002,9 +904,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Замороженные полуфабрикаты'))
 async def get_one_cat_prod(message: types.Message):
@@ -1012,9 +913,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Рыба'))
 async def get_one_cat_prod(message: types.Message):
@@ -1022,9 +922,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Котлеты, наггетсы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1032,9 +931,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Ягоды и фрукты'))
 async def get_one_cat_prod(message: types.Message):
@@ -1042,9 +940,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Мороженое'))
 async def get_one_cat_prod(message: types.Message):
@@ -1052,9 +949,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Вода и напитки'))
 async def get_one_cat_prod(message: types.Message):
@@ -1062,9 +958,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Детское питание'))
 async def get_one_cat_prod(message: types.Message):
@@ -1072,9 +967,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Детские смеси и заменители'))
 async def get_one_cat_prod(message: types.Message):
@@ -1082,9 +976,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Гигиена и уход'))
 async def get_one_cat_prod(message: types.Message):
@@ -1092,9 +985,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Игрушки'))
 async def get_one_cat_prod(message: types.Message):
@@ -1102,9 +994,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Развивающие игрушки и конструкторы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1112,9 +1003,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Настольные игры'))
 async def get_one_cat_prod(message: types.Message):
@@ -1122,9 +1012,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Игровые наборы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1132,9 +1021,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Наборы для творчества'))
 async def get_one_cat_prod(message: types.Message):
@@ -1142,9 +1030,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Соусы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1152,9 +1039,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Майонез'))
 async def get_one_cat_prod(message: types.Message):
@@ -1162,9 +1048,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Кетчупы и томатные соусы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1172,9 +1057,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Горчица, хрен'))
 async def get_one_cat_prod(message: types.Message):
@@ -1182,9 +1066,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Кофе'))
 async def get_one_cat_prod(message: types.Message):
@@ -1192,9 +1075,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Чай'))
 async def get_one_cat_prod(message: types.Message):
@@ -1202,9 +1084,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Какао, шоколад'))
 async def get_one_cat_prod(message: types.Message):
@@ -1212,9 +1093,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Подушечки, мюсли, хлопья'))
 async def get_one_cat_prod(message: types.Message):
@@ -1222,9 +1102,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Каши'))
 async def get_one_cat_prod(message: types.Message):
@@ -1232,9 +1111,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Супы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1242,9 +1120,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Каши и вторые блюда'))
 async def get_one_cat_prod(message: types.Message):
@@ -1252,9 +1129,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Овощные консервы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1262,9 +1138,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Рыбные консервы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1272,9 +1147,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Мясные консервы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1282,9 +1156,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Диабетическая продукция'))
 async def get_one_cat_prod(message: types.Message):
@@ -1292,9 +1165,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Спортивное питание и БАД'))
 async def get_one_cat_prod(message: types.Message):
@@ -1302,9 +1174,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Без глютена'))
 async def get_one_cat_prod(message: types.Message):
@@ -1312,9 +1183,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Суперфуд'))
 async def get_one_cat_prod(message: types.Message):
@@ -1322,9 +1192,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Полезный перекус'))
 async def get_one_cat_prod(message: types.Message):
@@ -1332,9 +1201,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Растительные напитки'))
 async def get_one_cat_prod(message: types.Message):
@@ -1342,9 +1210,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Правильные сладости'))
 async def get_one_cat_prod(message: types.Message):
@@ -1352,9 +1219,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Орехи'))
 async def get_one_cat_prod(message: types.Message):
@@ -1362,9 +1228,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Семечки'))
 async def get_one_cat_prod(message: types.Message):
@@ -1372,9 +1237,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Смеси орехов и сухофруктов'))
 async def get_one_cat_prod(message: types.Message):
@@ -1382,9 +1246,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сухофрукты'))
 async def get_one_cat_prod(message: types.Message):
@@ -1392,9 +1255,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Мёд'))
 async def get_one_cat_prod(message: types.Message):
@@ -1402,9 +1264,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Джем, конфитюр, повидло'))
 async def get_one_cat_prod(message: types.Message):
@@ -1412,9 +1273,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сиропы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1422,9 +1282,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для кошек'))
 async def get_one_cat_prod(message: types.Message):
@@ -1432,9 +1291,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для собак'))
 async def get_one_cat_prod(message: types.Message):
@@ -1442,9 +1300,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Аптека'))
 async def get_one_cat_prod(message: types.Message):
@@ -1452,9 +1309,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Бумажная и ватная продукция'))
 async def get_one_cat_prod(message: types.Message):
@@ -1462,9 +1318,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Уход за полостью рта'))
 async def get_one_cat_prod(message: types.Message):
@@ -1472,9 +1327,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Средства личной гигиены'))
 async def get_one_cat_prod(message: types.Message):
@@ -1482,9 +1336,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Уход для волос'))
 async def get_one_cat_prod(message: types.Message):
@@ -1492,9 +1345,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Стайлинг волос'))
 async def get_one_cat_prod(message: types.Message):
@@ -1502,9 +1354,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Мыло'))
 async def get_one_cat_prod(message: types.Message):
@@ -1512,9 +1363,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Гели для душа'))
 async def get_one_cat_prod(message: types.Message):
@@ -1522,9 +1372,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Дезодоранты'))
 async def get_one_cat_prod(message: types.Message):
@@ -1532,9 +1381,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Средства для бритья'))
 async def get_one_cat_prod(message: types.Message):
@@ -1542,9 +1390,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Уход за лицом'))
 async def get_one_cat_prod(message: types.Message):
@@ -1552,9 +1399,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Уход за телом'))
 async def get_one_cat_prod(message: types.Message):
@@ -1562,9 +1408,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Косметические наборы'))
 async def get_one_cat_prod(message: types.Message):
@@ -1572,9 +1417,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Экодом'))
 async def get_one_cat_prod(message: types.Message):
@@ -1582,9 +1426,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для мытья посуды'))
 async def get_one_cat_prod(message: types.Message):
@@ -1592,9 +1435,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для стирки и ухода за вещами'))
 async def get_one_cat_prod(message: types.Message):
@@ -1602,9 +1444,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для сантехники'))
 async def get_one_cat_prod(message: types.Message):
@@ -1612,9 +1453,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Универсальные средства'))
 async def get_one_cat_prod(message: types.Message):
@@ -1622,9 +1462,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для посудомоечных и стиральных машин'))
 async def get_one_cat_prod(message: types.Message):
@@ -1632,9 +1471,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для устранения засоров'))
 async def get_one_cat_prod(message: types.Message):
@@ -1642,9 +1480,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для плит и духовок'))
 async def get_one_cat_prod(message: types.Message):
@@ -1652,9 +1489,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для полов'))
 async def get_one_cat_prod(message: types.Message):
@@ -1662,9 +1498,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Предметы для уборки'))
 async def get_one_cat_prod(message: types.Message):
@@ -1672,9 +1507,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Ароматизаторы для дома'))
 async def get_one_cat_prod(message: types.Message):
@@ -1682,9 +1516,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Посуда для приготовления'))
 async def get_one_cat_prod(message: types.Message):
@@ -1692,9 +1525,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Одноразовая посуда'))
 async def get_one_cat_prod(message: types.Message):
@@ -1702,9 +1534,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сервировка'))
 async def get_one_cat_prod(message: types.Message):
@@ -1712,9 +1543,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Для чая/кофе'))
 async def get_one_cat_prod(message: types.Message):
@@ -1722,9 +1552,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Всё для хранения'))
 async def get_one_cat_prod(message: types.Message):
@@ -1732,9 +1561,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Бытовая техника'))
 async def get_one_cat_prod(message: types.Message):
@@ -1742,9 +1570,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Всё для сада'))
 async def get_one_cat_prod(message: types.Message):
@@ -1752,9 +1579,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Всё для шашлыка'))
 async def get_one_cat_prod(message: types.Message):
@@ -1762,9 +1588,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Кухонные аксессуары'))
 async def get_one_cat_prod(message: types.Message):
@@ -1772,9 +1597,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Одежда, обувь, аксессуары'))
 async def get_one_cat_prod(message: types.Message):
@@ -1782,9 +1606,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Всё для праздника'))
 async def get_one_cat_prod(message: types.Message):
@@ -1792,9 +1615,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Всё для ремонта'))
 async def get_one_cat_prod(message: types.Message):
@@ -1802,9 +1624,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Лампочки и батарейки'))
 async def get_one_cat_prod(message: types.Message):
@@ -1812,9 +1633,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Домашний текстиль'))
 async def get_one_cat_prod(message: types.Message):
@@ -1822,9 +1642,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Автоаксессуары'))
 async def get_one_cat_prod(message: types.Message):
@@ -1832,9 +1651,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Декор и интерьер'))
 async def get_one_cat_prod(message: types.Message):
@@ -1842,9 +1660,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Спорт и туризм'))
 async def get_one_cat_prod(message: types.Message):
@@ -1852,9 +1669,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Галантерейные аксессуары'))
 async def get_one_cat_prod(message: types.Message):
@@ -1862,9 +1678,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Канцелярские принадлежности'))
 async def get_one_cat_prod(message: types.Message):
@@ -1872,9 +1687,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сезонные товары'))
 async def get_one_cat_prod(message: types.Message):
@@ -1882,9 +1696,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Вино'))
 async def get_one_cat_prod(message: types.Message):
@@ -1892,9 +1705,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Шампанское, игристые вина'))
 async def get_one_cat_prod(message: types.Message):
@@ -1902,9 +1714,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Коньяк'))
 async def get_one_cat_prod(message: types.Message):
@@ -1912,9 +1723,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Виски, Бурбон'))
 async def get_one_cat_prod(message: types.Message):
@@ -1922,9 +1732,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Ром'))
 async def get_one_cat_prod(message: types.Message):
@@ -1932,9 +1741,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Водка, Абсент'))
 async def get_one_cat_prod(message: types.Message):
@@ -1942,9 +1750,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Пиво'))
 async def get_one_cat_prod(message: types.Message):
@@ -1952,9 +1759,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Сидр, Медовуха'))
 async def get_one_cat_prod(message: types.Message):
@@ -1962,9 +1768,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Настойки'))
 async def get_one_cat_prod(message: types.Message):
@@ -1972,9 +1777,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Джин'))
 async def get_one_cat_prod(message: types.Message):
@@ -1982,9 +1786,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Бренди'))
 async def get_one_cat_prod(message: types.Message):
@@ -1992,9 +1795,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Ликёры'))
 async def get_one_cat_prod(message: types.Message):
@@ -2002,9 +1804,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Бальзам'))
 async def get_one_cat_prod(message: types.Message):
@@ -2012,9 +1813,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 @dp.message_handler(Text(equals='Устройства'))
 async def get_one_cat_prod(message: types.Message):
@@ -2022,9 +1822,8 @@ async def get_one_cat_prod(message: types.Message):
     prod_list = get_product_categories(url)
 
     for i in prod_list:
-        for k, v in i.items():
-            prod = f"{(i['Title'])}\n{(i['Link'])}\n{i['Price_new']}\n{i['Discont']}"
-            await bot.send_message(message.from_user.id, prod)
+        prod = f"{i['Title']}\n{i['Link']}\n{i['Price_new']}\n{i['Discont']}"
+        await bot.send_message(message.from_user.id, prod)
 
 
 
